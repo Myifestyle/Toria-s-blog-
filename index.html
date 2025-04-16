@@ -1,97 +1,55 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Toria's Lifestyle Blog</title>
-    <style>
-        body {
-            font-family: 'Georgia', serif;
-            background-color: #fffaf6;
-            margin: 0;
-            padding: 0;
-        }
-        header {
-            background-color: #f8c8dc;
-            color: #3e3e3e;
-            padding: 20px;
-            text-align: center;
-        }
-        .content {
-            padding: 40px;
-            max-width: 800px;
-            margin: auto;
-            background-color: #fff;
-        }
-        .post {
-            margin-bottom: 60px;
-        }
-        .post h2 {
-            color: #b06b8c;
-        }
-        .post p {
-            line-height: 1.7;
-            color: #444;
-        }
-        .signup {
-            background-color: #fdeef4;
-            padding: 20px;
-            border-radius: 12px;
-            margin-top: 40px;
-        }
-        .signup input[type="email"] {
-            padding: 10px;
-            width: 70%;
-            border: 1px solid #ccc;
-            border-radius: 6px;
-            margin-right: 10px;
-        }
-        .signup input[type="submit"] {
-            background-color: #b06b8c;
-            color: white;
-            padding: 10px 20px;
-            border: none;
-            border-radius: 6px;
-            cursor: pointer;
-        }
-        footer {
-            background-color: #f8c8dc;
-            text-align: center;
-            padding: 15px;
-            color: #3e3e3e;
-            margin-top: 60px;
-        }
-    </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Welcome to Toria's Blog</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f9f9f9;
+      padding: 20px;
+      text-align: center;
+    }
+    h1 {
+      color: #333;
+    }
+    form {
+      background: white;
+      padding: 20px;
+      margin: 20px auto;
+      width: 300px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      border-radius: 8px;
+    }
+    input[type="email"] {
+      width: 90%;
+      padding: 10px;
+      margin-bottom: 10px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+    input[type="submit"] {
+      background: #5cb85c;
+      color: white;
+      padding: 10px 15px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+    input[type="submit"]:hover {
+      background: #4cae4c;
+    }
+  </style>
 </head>
 <body>
-    <header>
-        <h1>Welcome to Toria's Lifestyle Blog</h1>
-        <p>Stories, peace, and everything in between</p>
-    </header>
-    <div class="content">
-        <div class="post">
-            <h2>How I Found My Peace in Everyday Moments</h2>
-            <p>
-                Life used to feel like a race — always chasing the next goal, the next glow-up, the next ‘perfect’ version of myself. But over time, I’ve learned something way more valuable: peace lives in the small, ordinary moments.
-            </p>
-            <p>
-                It’s in the sound of music while I do my skincare, the smell of fresh food in the kitchen, journaling with candles lit, or a quiet morning walk. I started slowing down and choosing what fills me instead of what drains me.
-            </p>
-            <p>
-                In this blog, I want to share the real — the struggles, the joy, the little wins. And I hope you find a piece of yourself in these stories too.
-            </p>
-        </div>
-        <div class="signup">
-            <h3>Join My Newsletter</h3>
-            <p>Subscribe for updates, stories & self-care tips!</p>
-            <form action="https://formsubmit.co/victoriakin52@gmail.com" method="POST">
-                <input type="email" name="email" placeholder="Enter your email" required>
-                <input type="submit" value="Subscribe">
-            </form>
-        </div>
-    </div>
-    <footer>
-        &copy; 2025 Toria's Blog. All rights reserved.
-    </footer>
+  <h1>Welcome to Toria's Lifestyle Blog</h1>
+  <p>Subscribe to get the latest updates!</p>
+  
+  <form action="https://formsubmit.co/victoriakin52@gmail.com" method="POST">
+    <input type="email" name="email" placeholder="Enter your email" required />
+    <input type="hidden" name="_captcha" value="false">
+    <input type="submit" value="Subscribe" />
+  </form>
 </body>
 </html>
